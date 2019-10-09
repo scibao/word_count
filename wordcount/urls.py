@@ -20,4 +20,5 @@ urlpatterns = [
     path('',function.home),
     path('admin/', admin.site.urls),
     path('count/', function.count),
+    path('about/', function.about),
 ]
