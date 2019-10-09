@@ -18,3 +18,6 @@ def count(request):
 
 def about(request):
     return render(request, "about.html")
+
+def congratulations(request):
+    return render(request, "congratulations.html")
